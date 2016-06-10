@@ -1,0 +1,2 @@
+myresourcefromdemo.txt
+modified1
