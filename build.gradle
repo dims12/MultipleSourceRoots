@@ -14,12 +14,7 @@ dependencies {
 }
 
 sourceSets {
-    demo {
-        java {
-            srcDir 'src/demo/java'
-        }
-        resources {
-            srcDir 'src/demo/resources'
-        }
-    }
+    demo
 }
+
+build.dependsOn demoClasses
